@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "heroes",
+  "info": {
+    "name": "hero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "description1": {
+      "type": "text"
+    },
+    "description2": {
+      "type": "text"
+    }
+  }
+}
