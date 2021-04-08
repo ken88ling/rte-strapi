@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fleets",
+  "info": {
+    "name": "Fleet"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "details": {
+      "type": "richtext"
+    }
+  }
+}
