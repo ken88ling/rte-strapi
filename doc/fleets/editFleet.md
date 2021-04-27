@@ -1,15 +1,15 @@
 ## Steps for Edit Fleet:
 
-### 1. Visit add fleet link:
+### 1. Go to List of Fleets:
+http://143.198.214.24:2337/admin/plugins/content-manager/collectionType/application::fleet.fleet
 
-http://143.198.214.24:2337/admin/plugins/content-manager/collectionType/application::fleet.fleet/create
+### 2. Click on Fleet that need to edit:
 
-This should be the page shown:
+It should open the fleet detail, Confirm all the details and make sure:
 
-<img width="1440" alt="Screen Shot 2021-04-27 at 12 20 49 PM" src="https://user-images.githubusercontent.com/59637626/116196298-0ac8fb80-a753-11eb-9e25-94fef54b740b.png">
+<img width="1440" alt="Screen Shot 2021-04-27 at 12 29 40 PM" src="https://user-images.githubusercontent.com/59637626/116197476-88413b80-a754-11eb-91b0-eaa17e3f330e.png">
 
-
-### 2. Add the details for new fleet:
+### 2. Edit the details for fleet:
 
 ```
 1. Title : This will be title.
@@ -29,4 +29,4 @@ This should be the page shown:
       This is structure for the fleet details.
 ```
 
-### 3. Click on save button on top right to save the new fleet.
+### 3. Click on save button on top right to edit the fleet.
