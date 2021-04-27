@@ -9,7 +9,7 @@ It should open the fleet detail, Confirm all the details and make sure:
 
 <img width="1440" alt="Screen Shot 2021-04-27 at 12 29 40 PM" src="https://user-images.githubusercontent.com/59637626/116197476-88413b80-a754-11eb-91b0-eaa17e3f330e.png">
 
-### 2. Edit the details for fleet:
+### 3. Edit the details for fleet:
 
 ```
 1. Title : This will be title.
@@ -29,4 +29,4 @@ It should open the fleet detail, Confirm all the details and make sure:
       This is structure for the fleet details.
 ```
 
-### 3. Click on save button on top right to edit the fleet.
+### 4. Click on save button on top right to edit the fleet.
