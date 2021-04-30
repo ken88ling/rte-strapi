@@ -1,19 +1,19 @@
 {
   "kind": "collectionType",
-  "collectionName": "services",
+  "collectionName": "testimonials",
   "info": {
-    "name": "service"
+    "name": "Testimonials"
   },
   "options": {
     "increments": true,
     "timestamps": true
   },
   "attributes": {
-    "title": {
+    "name": {
       "type": "string"
     },
-    "details": {
-      "type": "text"
+    "testimonial": {
+      "type": "richtext"
     },
     "image": {
       "model": "file",

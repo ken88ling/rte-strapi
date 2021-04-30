@@ -27,7 +27,7 @@
       "required": false
     },
     "details": {
-      "type": "richtext"
+      "type": "json"
     }
   }
 }

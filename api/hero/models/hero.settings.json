@@ -9,11 +9,25 @@
     "timestamps": true
   },
   "attributes": {
-    "description1": {
-      "type": "text"
+    "title": {
+      "type": "string"
     },
-    "description2": {
-      "type": "text"
+    "description": {
+      "type": "richtext"
+    },
+    "background": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "page": {
+      "type": "string"
     }
   }
 }

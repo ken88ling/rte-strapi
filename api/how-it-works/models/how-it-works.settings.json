@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "how_it_works",
+  "info": {
+    "name": "HowItWorks"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "stepName": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkText": {
+      "type": "string"
+    }
+  }
+}

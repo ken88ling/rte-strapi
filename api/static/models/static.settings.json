@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statics",
+  "info": {
+    "name": "Static"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "about": {
+      "type": "json"
+    },
+    "contact": {
+      "type": "json"
+    }
+  }
+}

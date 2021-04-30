@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "services",
+  "collectionName": "serves",
   "info": {
-    "name": "service"
+    "name": "Serve"
   },
   "options": {
     "increments": true,
@@ -12,8 +12,8 @@
     "title": {
       "type": "string"
     },
-    "details": {
-      "type": "text"
+    "description": {
+      "type": "richtext"
     },
     "image": {
       "model": "file",
