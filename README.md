@@ -7,5 +7,5 @@ port number 1337
 ## strapi auth
 ```
 username : raymondtransport4328@gmail.com
-password : Rte@12345**
+password : Rte12345***
 ```
